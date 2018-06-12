@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.example.oluwagbenga.reminder.views.MyEditText
+        android:id="@+id/trip_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Trip Title"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time and Date of Reminder" />
+
+    <com.example.oluwagbenga.reminder.views.MyEditText
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+        android:clickable="true"
+        android:focusable="false"
+        tools:text="12:00AM" />
+
+    <com.example.oluwagbenga.reminder.views.MyEditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="3dp"
+        android:clickable="true"
+        android:focusable="false"
+        tools:text="2 May, 2018" />
+
+    <com.example.oluwagbenga.reminder.views.MyEditText
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="top"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/detail_bg"
+        android:gravity="top"
+        android:hint="Enter Items. One item per line"
+        android:padding="10dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/save_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="Add"
+        android:textColor="@android:color/white" />
+</LinearLayout>

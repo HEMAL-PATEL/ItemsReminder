@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TextView android:drawableLeft="@drawable/ic_chevron_right"
+    android:drawableStart="@drawable/ic_chevron_right"
+    tools:text="Hello world"
+    android:padding="10dp"
+    android:textAppearance="?android:textAppearanceMedium"
+    android:id="@+id/reminder_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" />

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    android:layout_marginBottom="6dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:background="?android:attr/selectableItemBackground"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="reminder"
+            type="com.example.oluwagbenga.reminder.models.Reminder"/>
+    </data>
+
+    <LinearLayout
+        android:id="@+id/back_g"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:minHeight="25dp"
+                android:minWidth="25dp"
+                android:paddingStart="3dp"
+                android:paddingLeft="3dp"
+                android:paddingEnd="2dp"
+                android:paddingRight="2dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_alarm_on"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="7dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    tools:text="Hello world"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/title"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="@{reminder.title}"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/no_items"
+                    android:text="@{reminder.numberOfItems}"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    tools:text="Where I kept my Boxers"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical|end"
+                tools:text="12:00PM"
+                android:text="@{reminder.time}"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:background="@color/grey"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+</layout>

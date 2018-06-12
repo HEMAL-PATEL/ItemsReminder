@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Talentbase Item Reminder</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="menu">
+        <item>Delete</item>
+        <item>Edit</item>
+    </string-array>
+
+    <string name="channel_name">Reminder Channel</string>
+    <string name="channel_description">Reminder Description</string>
+    <string name="details">Details</string>
+    <string name="notif_msg">You have %s to remember</string>
+    <string name="notif_freq">I\'ll remind you in every %s minutes</string>
+    <plurals name="num_of_item">
+        <item quantity="one">%d Item</item>
+        <item quantity="other">%1$d Items</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:hint="Reminder Frequency"
+        android:title="Repeat Alarm"
+        android:inputType="numberDecimal"
+        android:key="time_freq"
+        android:text="1"
+        android:summary="15 minutes"/>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:title="Vibrate"
+        android:key="vibrate_reminder"
+        android:summary="Vibrate for notification"/>
+
+</PreferenceScreen>

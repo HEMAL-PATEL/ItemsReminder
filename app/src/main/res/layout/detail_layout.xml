@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="reminder"
+            type="com.example.oluwagbenga.reminder.models.Reminder"/>
+    </data>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:animateLayoutChanges="true"
+    android:id="@+id/detail_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_detail"
+        android:text="@{reminder.title}"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/dark"
+        android:textStyle="bold"
+        tools:text="Hello world this new new" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/grey"
+        android:id="@+id/line0"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/title_detail"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/line0"
+        android:layout_width="wrap_content"
+        android:text="@{reminder.time}"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/deep_grey"
+        tools:text="Sun, 10 Jul 2018 at 9:02AM" />
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/line0"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@{reminder.numberOfItems}"
+        android:id="@+id/num_items"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/deep_grey"
+        tools:text="3 Items" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/grey"
+        android:id="@+id/line"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/num_items"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/top_title"
+        android:layout_margin="10dp"
+        android:text="Items To Remember"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:background="@drawable/title_bg"
+        android:layout_below="@+id/line"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:layout_below="@+id/top_title"
+        android:layout_width="wrap_content"
+        android:id="@+id/detail_list"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/dark"
+        tools:text="Hello world this new new" />
+
+</RelativeLayout>
+</layout>

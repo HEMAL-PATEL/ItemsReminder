@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom"
+        android:id="@+id/action_delete"/>
+    <item android:icon="@drawable/ic_record_voice"
+        android:title="Speak"
+        app:showAsAction="ifRoom"
+        android:id="@+id/action_speak"/>
+</menu>
