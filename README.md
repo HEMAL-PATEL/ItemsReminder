@@ -24,4 +24,4 @@ Copyright [2018] [Oladipupo Gbenga]
    limitations under the License.
    
    
-   **Dislaimer: ** Item Reminder app is not in any form affiliated to Talentbase. 
+   **Dislaimer:** Item Reminder app is not in any form affiliated to Talentbase. 
