@@ -3,7 +3,7 @@ ItemReminder as the name implies is a reminder app that remind you of every item
 
 <img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-12-135501.png" width="200"><img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-12-135709.png" width="200"><img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-12-135731.png" width="200"><img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-12-135818.png" width="200">
 
-#### Prerequisite
+### Prerequisite
 * [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
 * [Room](https://developer.android.com/topic/libraries/architecture/room)
 * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) 
@@ -22,3 +22,6 @@ Copyright [2018] [Oladipupo Gbenga]
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+   
+   
+   **Dislaimer: ** Item Reminder app is not in any form affiliated to Talentbase. 
