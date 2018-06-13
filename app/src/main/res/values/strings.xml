@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Talentbase Item Reminder</string>
+    <string name="app_name">Item Reminder</string>
     <string name="action_settings">Settings</string>
     <string-array name="menu">
         <item>Delete</item>
