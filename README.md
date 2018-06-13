@@ -9,6 +9,7 @@ ItemReminder as the name implies is a reminder app that remind you of every item
 * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) 
 * [DataBinding](https://developer.android.com/topic/libraries/data-binding/)
 
+### License
 Copyright [2018] [Oladipupo Gbenga]
 
    Licensed under the Apache License, Version 2.0 (the "License");
