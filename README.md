@@ -1,7 +1,7 @@
 # ItemsReminder
 ItemReminder as the name implies is a reminder app that remind you of every item you took to a trip...
 
-<img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-12-135501.png" width="200"><img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-12-135709.png" width="200"><img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-12-135731.png" width="200"><img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-12-135818.png" width="200">
+<img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-12-135501.png" width="200"><img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-12-135709.png" width="200"><img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-12-135731.png" width="200"><img src="https://github.com/devmike01/ItemsReminder/blob/master/device-2018-06-13-154416.png" width="200">
 
 ### Prerequisite
 * [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
